@@ -5,13 +5,13 @@
 
     <div class="w3-card-4">
       <div class="w3-container w3-green">
-        <h2>Welcom to Domain-Checker</h2>
+        <h2 id="title">Welcom to Domain-Checker</h2>
       </div>
 
       <form class="w3-container" style="background-color: white;" >
         <p>
         <input class="w3-input" type="text" [formControl]="domain" id="domain">
-        <label for="domain">Your Domain</label></p>
+        <label for="domain" >Your Domain</label></p>
         <p>
           <button class="w3-btn w3-blue" type='button' (click)="getdomain()">Search</button>
 
